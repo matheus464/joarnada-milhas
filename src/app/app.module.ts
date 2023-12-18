@@ -9,20 +9,32 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import { ContainerComponent } from './componentes/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CardComponent } from './componentes/card/card.component';
+import { CardBuscaComponent } from './componentes/card-busca/card-busca.component';
+import { MatCardModule } from '@angular/material/card';
+import { CardDepoimentosComponent } from './componentes/card-depoimentos/card-depoimentos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    ContainerComponent,
+    HomeComponent,
+    CardComponent,
+    CardBuscaComponent,
+    CardDepoimentosComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

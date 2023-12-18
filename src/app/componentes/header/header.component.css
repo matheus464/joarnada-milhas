@@ -6,6 +6,7 @@
     background-color: black;
     color: white;
     padding: 0 256px;
+    width: 110%;
   }
 
 .mat-mdc-outlined-button:not(:disabled){
